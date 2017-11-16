@@ -1,0 +1,35 @@
+{
+  "name": "browsify-client",
+  "version": "1.0.0",
+  "description": "Browse your file system--in your browser! Among other things...",
+  "main": "",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "nib": "^1.1.2",
+    "react": "^15.6.1",
+    "stylus-loader": "^3.0.1",
+    "stylus": "^0.54.5",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.5",
+    "style-loader": "^0.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmagma/browsify-client.git"
+  },
+  "author": "Joshua Gammage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrmagma/browsify-client/issues"
+  },
+  "homepage": "https://github.com/mrmagma/browsify-client#readme"
+}
