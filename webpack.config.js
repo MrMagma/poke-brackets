@@ -10,7 +10,9 @@ var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common');
 
 module.exports = {
     entry: {
-        index: "./src/scripts/index.js"
+        index: "./src/scripts/index.jsx",
+        controlls: "./src/scripts/controlls.jsx",
+        matthew: "./src/scripts/matthew.jsx"
     },
     output: {
         path: path.join(__dirname, "dist"),
@@ -21,9 +23,18 @@ module.exports = {
         loaders: [
             {
                 test: /\.js$/,
+                exclude: /node_modules/,
                 loader: "babel-loader",
                 query: {
                     presets: ["env"]
+                }
+            },
+            {
+                test: /\.jsx$/,
+                exclude: /node_modules/,
+                loader: "babel-loader",
+                query: {
+                    presets: ["react", "env"]
                 }
             },
             {
