@@ -1,46 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 188:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _react = __webpack_require__(20);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(96);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-var _messages = __webpack_require__(189);
-
-var _messages2 = _interopRequireDefault(_messages);
-
-var _brackets = __webpack_require__(190);
-
-var _brackets2 = _interopRequireDefault(_brackets);
-
-var _background = __webpack_require__(191);
-
-var _background2 = _interopRequireDefault(_background);
-
-__webpack_require__(192);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-_reactDom2.default.render(_react2.default.createElement(_messages2.default, null), document.getElementById("messages"));
-
-_reactDom2.default.render(_react2.default.createElement(_brackets2.default, null), document.getElementById("brackets"));
-
-_reactDom2.default.render(_react2.default.createElement(_background2.default, null), document.getElementById("background"));
-
-console.log("Pika... CHU!!!!!!!!!!");
-
-/***/ }),
-
-/***/ 189:
+/***/ 106:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52,11 +12,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(20);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _fb = __webpack_require__(54);
+var _fb = __webpack_require__(17);
 
 var _fb2 = _interopRequireDefault(_fb);
 
@@ -154,11 +114,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(20);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _fb = __webpack_require__(54);
+var _fb = __webpack_require__(17);
 
 var _fb2 = _interopRequireDefault(_fb);
 
@@ -282,11 +242,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(20);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _fb = __webpack_require__(54);
+var _fb = __webpack_require__(17);
 
 var _fb2 = _interopRequireDefault(_fb);
 
@@ -375,7 +335,7 @@ exports = module.exports = __webpack_require__(194)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  font-size: 1em;\n  margin: 0;\n  border: 0;\n  padding: 0;\n  font-family: \"Open Sans Condensed\", sans-serif;\n  color: #fff;\n}\nh1 {\n  font-weight: bold;\n}\np {\n  font-size: 1.75em;\n}\n#video-background {\n  position: fixed;\n  right: 0;\n  bottom: 0;\n  min-width: 100%;\n  min-height: 100%;\n  z-index: -1000;\n}\n.knockout-bg {\n  position: absolute;\n  right: 0;\n  bottom: 0;\n  min-width: 100%;\n  min-height: 100%;\n  z-index: -999;\n}\n#messages {\n  font-family: \"Roboto\", sans-serif;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2em;\n  color: #000;\n  font-size: 2em;\n  background: #fff;\n}\n#current-message {\n  position: absolute;\n  top: 0.4em;\n  margin-left: 1em;\n  animation: 2s fadein;\n}\n#last-message {\n  left: -100%;\n  position: absolute;\n  top: 0.4em;\n  margin-left: 1em;\n  animation: 1s slideout;\n}\n.message-name {\n  font-weight: bold;\n  font-size: 0.75em;\n}\n.message-content {\n  margin-left: 0.2em;\n}\n.fighter {\n  font-family: \"Roboto\", sans-serif;\n  background: #f44336;\n  text-align: center;\n  border-radius: 50%;\n  padding: 2em;\n  display: inline-block;\n  position: relative;\n  transition: top 1s, padding 1s, background 1s;\n}\n.fighter.winner {\n  top: 1em;\n  padding: 3em;\n  background: #4caf50;\n}\n.fight {\n  display: inline;\n  margin-right: 1em;\n  position: relative;\n  animation: 2s fadein;\n}\n@-moz-keyframes fadein {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@-webkit-keyframes fadein {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@-o-keyframes fadein {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@keyframes fadein {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@-moz-keyframes slideout {\n  from {\n    left: 0%;\n  }\n  to {\n    left: -100%;\n  }\n}\n@-webkit-keyframes slideout {\n  from {\n    left: 0%;\n  }\n  to {\n    left: -100%;\n  }\n}\n@-o-keyframes slideout {\n  from {\n    left: 0%;\n  }\n  to {\n    left: -100%;\n  }\n}\n@keyframes slideout {\n  from {\n    left: 0%;\n  }\n  to {\n    left: -100%;\n  }\n}\n", ""]);
+exports.push([module.i, "body {\n  font-size: 1em;\n  margin: 0;\n  border: 0;\n  padding: 0;\n  font-family: \"Open Sans Condensed\", sans-serif;\n  color: #fff;\n}\nh1 {\n  font-weight: bold;\n}\np {\n  font-size: 1.75em;\n}\n#video-background {\n  position: fixed;\n  right: 0;\n  bottom: 0;\n  min-width: 100%;\n  min-height: 100%;\n  z-index: -1000;\n}\n.knockout-bg {\n  position: absolute;\n  right: 0;\n  bottom: 0;\n  min-width: 100%;\n  min-height: 100%;\n  z-index: -999;\n}\n#messages {\n  font-family: \"Roboto\", sans-serif;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2em;\n  color: #000;\n  font-size: 2em;\n  background: #fff;\n}\n#current-message {\n  position: absolute;\n  top: 0.4em;\n  margin-left: 1em;\n  animation: 2s fadein;\n}\n#last-message {\n  left: -100%;\n  position: absolute;\n  top: 0.4em;\n  margin-left: 1em;\n  animation: 1s slideout;\n}\n.message-name {\n  font-weight: bold;\n  font-size: 0.75em;\n}\n.message-content {\n  font-size: 0.75em;\n  margin-left: 0.2em;\n}\n.fighter {\n  font-family: \"Roboto\", sans-serif;\n  background: #f44336;\n  text-align: center;\n  border-radius: 50%;\n  padding: 2em;\n  display: inline-block;\n  position: relative;\n  transition: top 1s, padding 1s, background 1s;\n}\n.fighter.winner {\n  top: 1em;\n  padding: 3em;\n  background: #4caf50;\n}\n.fight {\n  display: inline;\n  margin-right: 1em;\n  position: relative;\n  animation: 2s fadein;\n}\n@-moz-keyframes fadein {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@-webkit-keyframes fadein {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@-o-keyframes fadein {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@keyframes fadein {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@-moz-keyframes slideout {\n  from {\n    left: 0%;\n  }\n  to {\n    left: -100%;\n  }\n}\n@-webkit-keyframes slideout {\n  from {\n    left: 0%;\n  }\n  to {\n    left: -100%;\n  }\n}\n@-o-keyframes slideout {\n  from {\n    left: 0%;\n  }\n  to {\n    left: -100%;\n  }\n}\n@keyframes slideout {\n  from {\n    left: 0%;\n  }\n  to {\n    left: -100%;\n  }\n}\n", ""]);
 
 // exports
 
@@ -919,6 +879,46 @@ module.exports = function (css) {
 };
 
 
+/***/ }),
+
+/***/ 94:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _react = __webpack_require__(9);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(36);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _messages = __webpack_require__(106);
+
+var _messages2 = _interopRequireDefault(_messages);
+
+var _brackets = __webpack_require__(190);
+
+var _brackets2 = _interopRequireDefault(_brackets);
+
+var _background = __webpack_require__(191);
+
+var _background2 = _interopRequireDefault(_background);
+
+__webpack_require__(192);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_reactDom2.default.render(_react2.default.createElement(_messages2.default, null), document.getElementById("messages"));
+
+_reactDom2.default.render(_react2.default.createElement(_brackets2.default, null), document.getElementById("brackets"));
+
+_reactDom2.default.render(_react2.default.createElement(_background2.default, null), document.getElementById("background"));
+
+console.log("Pika... CHU!!!!!!!!!!");
+
 /***/ })
 
-},[188]);
+},[94]);
